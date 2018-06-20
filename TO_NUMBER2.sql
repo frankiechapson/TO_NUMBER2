@@ -4,7 +4,7 @@ create or replace function TO_NUMBER2( I_STRING in varchar2 ) return number dete
 /* **************************************************************************************************
 
     The TO_NUMBER2 is a more flexibe TO_NUMBER function.
-    It is unsensitve for decimal and thousand separators and trailing minus sign as well.
+    It is insensitve for decimal and thousand separators and trailing minus sign as well.
     Returns with null if the input is not a number.
 
     sample:
